@@ -21,6 +21,8 @@ git clone https://github.com/pjreddie/darknet.git
 cd darknet
 make -j8
 
+wget https://pjreddie.com/media/files/yolov3.weights
+
 # Initialize project
 cd ..
 mkdir input
