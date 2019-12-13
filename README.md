@@ -21,4 +21,4 @@ Then to run, just import images to input/ directory and:
 bash run.sh
 ```
 
-After bash run.sh has done, you can see result in output/ directory
+After bash run.sh has done, you can see result in output/ directory. However, for each image yolo has to process for like 6 - 12 seconds, so be patience.
