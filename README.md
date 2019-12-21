@@ -9,7 +9,7 @@ Object detection in class CS412 of APCS
 bash init.sh
 sudo apt install python-tk
 pip3 install --upgrade mxnet-cu90mkl gluoncv
-sudo apt install python-opencv
+pip3 install opencv-python --user
 ```
 
 ## run YOLOv3
