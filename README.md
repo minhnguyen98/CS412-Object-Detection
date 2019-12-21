@@ -3,22 +3,27 @@ Object detection in class CS412 of APCS
 
 # How to run
 
-## Initialize
-
-We have made everything as simple as possible. First, just initial the project (by fetching Darknet):
+## Initialize project
 
 ```bash
 bash init.sh
+sudo apt install python-tk
+pip3 install --upgrade mxnet-cu90mkl gluoncv
+sudo apt install python-opencv
 ```
 
-If you dont have git installed in system, the script will prompt error and you have to install git first.
+## run YOLOv3
 
-## Run
-
-Then to run, just import images to input/ directory and:
+Just import images to inputYOLOv3/ directory and:
 
 ```bash
-bash run.sh
+python3 runYOLOv3.py
 ```
 
-After bash run.sh has done, you can see result in output/ directory. However, for each image yolo has to process for like 6 - 12 seconds, so be patience.
+## Faster RCNN
+
+Just import images to inputFasterRCNN/ directory and:
+
+```bash
+python3 runFasterRCNN.py
+```
