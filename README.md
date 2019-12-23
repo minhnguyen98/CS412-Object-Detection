@@ -8,8 +8,10 @@ Object detection in class CS412 of APCS
 ```bash
 bash init.sh
 sudo apt install python-tk
-pip3 install --upgrade mxnet-cu90mkl gluoncv
-sudo apt install python-opencv
+pip install gluoncv
+pip install --upgrade mxnet gluoncv
+pip install opencv-python
+
 ```
 
 ## run YOLOv3
