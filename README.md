@@ -11,7 +11,6 @@ sudo apt install python-tk
 pip install gluoncv
 pip install --upgrade mxnet gluoncv
 pip install opencv-python
-
 ```
 
 ## run YOLOv3
@@ -22,6 +21,8 @@ Just import images to inputYOLOv3/ directory and:
 python3 runYOLOv3.py
 ```
 
+The result images will be in outputYOLOv3/
+
 ## Faster RCNN
 
 Just import images to inputFasterRCNN/ directory and:
@@ -29,6 +30,8 @@ Just import images to inputFasterRCNN/ directory and:
 ```bash
 python3 runFasterRCNN.py
 ```
+
+The result images will be in outputFasterRCNN/
 
 # Some example after running detection
 
